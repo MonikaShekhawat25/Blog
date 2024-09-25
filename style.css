@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+
+}
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #2282ef;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#post-form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#post-form input, #post-form textarea, #post-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#post-form button {
+    padding: 10px 20px;
+    background-color: #2282ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.likes-comments {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.likes-comments button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.comment-section {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.comment-section textarea {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.comment-section .emoji-picker-container {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.comment-section .emoji-picker-container span {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.comment-section .submit-comment {
+    padding: 5px;
+    background-color: #2282ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment {
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.delete-comment {
+    cursor: pointer;
+    color: red;
+}
